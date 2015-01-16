@@ -1,0 +1,49 @@
+table, td, th{
+	border: 1px solid black;
+}
+tbody td:nth-child(1){
+	font-style: italic;
+}
+tbody td:nth-child(2){
+	color: red;
+}
+tbody td:nth-child(4){
+	color: blue;
+}
+tbody th{
+	background-color: white;
+}
+tbody tr:nth-child(even){
+	background-color: #90EE90;
+}
+tbody tr:nth-child(3){
+	background-color: #ADD8E6;
+}
+tbody tr:nth-child(5){
+	background-color: #ADD8E6;
+}
+dt:hover+dd {
+	background-color: purple;
+}
+div .inner-content{
+	height: 25px;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: blue;
+	text-align: center;
+}
+div .outer-content{
+	left: 0;
+	margin-top: 20px;
+	height: auto;
+	width: 75%;
+	background-color: pink;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+img {
+	height: 125px;
+	width: 100px;
+	float: left;
+}
